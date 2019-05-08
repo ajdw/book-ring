@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Ring</title>
+	<meta charset="utf-8">
+  	<!-- So as to prevent unnecessary mobile zoom in -->
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+ 	<link rel="stylesheet" type="text/css" href="css/main.css">
+ 	<!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Latest compiled BootstrapJavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+</head>
+
+<body>
+
+<div class="ring-zone">
+<svg class="progress-ring" width="120" height="120">
+  <circle class="progress-ring__circle" stroke="blue" stroke-width="6" fill="transparent" r="52" cx="60" cy="60"/>
+</svg>
+</div>
+
+
+
+<div id="input-zone">
+	<input value="0" type="number" step="1" min="0" max="100" placeholder="progress">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

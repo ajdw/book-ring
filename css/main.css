@@ -1,0 +1,52 @@
+html, body {
+  background-color: #2962FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+
+/*
+.progress-ring {
+  stroke: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  color: transparent;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 100%;
+  position: relative;
+}
+*/
+
+
+.progress-ring__circle {
+  transition: 0.35s stroke-dashoffset;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.ring-zone {
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+input {
+  width: 100px;
+  text-align: center;
+}
+
+#input-zone {
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  margin-top: 20px;
+}
+
+
+
+
+
